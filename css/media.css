@@ -1,0 +1,399 @@
+@media only screen and (max-width: 40em) {
+	nav.mobile {
+		position: fixed;
+		z-index: 999;
+		width: 100%;
+		background: #454545;
+		color: #fff;
+	}
+	nav.mobile ul.menu-list {
+		margin: 30px auto;
+		width: 60%;
+	}
+	nav.mobile ul.menu-list li {
+		text-align: center;
+		border-bottom: 1px solid #2a2a2a;
+		border-top: 1px solid #696969;
+		padding: 20px 0;
+	}
+	nav.mobile ul.menu-list li:first-of-type {
+		border-top: 0;
+	}
+	nav.mobile ul.menu-list li:last-of-type {
+		border-bottom: 0;
+	} 
+	
+	nav.mobile ul.menu-list li a {
+		color: #eae8e8;
+	}
+	
+	nav.mobile .logo {
+		padding-top: 5px;
+		padding-bottom: 5px; 
+	}
+	nav.mobile .menu {
+		background: #383838;
+		color: #fff;
+		text-align: center;
+		padding: 10px 0;
+	}
+	nav.mobile .menu-toggle {
+		display: none;
+	}
+	
+	nav.mobile ul.nav-lang {
+		margin: 30px auto;
+		width: 80%;
+	}
+	nav.mobile ul.nav-lang li {
+		display: inline-block;
+		border: 0;
+		width: 23%;
+		border-right: 1px solid #696969;
+		text-align: center;
+		cursor: pointer;
+	}
+	nav.mobile ul.nav-lang li:last-of-type {
+		border: 0;
+	}
+	
+	#intro {
+		display: none;
+	}
+	
+	.slide {
+		height: auto;
+		min-height: 100%;
+	}
+	
+	#slide-1 .slogan {
+		color: #fff;
+		display: block;
+		width: 100%;
+		top: 40%;
+		left: 0;
+	}
+	
+	
+	
+	#slide-1 #top_create {
+		font-size: 42px !important;
+		left: 2%;
+		top: 0;
+	}
+	#slide-1 #top_modern {
+		font-size: 70px !important;
+		left: 1%;
+		top: 15px;
+	}
+	#slide-1 #top_interior {
+		font-size: 48px !important;
+		left: 44%;
+		top: 80px;
+	}
+	
+	#slide-1 .squares-wrapper {
+		bottom: -40px;
+	}
+	#slide-1 table.squares {
+		width: 90%;
+		margin: 0 auto;
+	}
+	#slide-1 table.squares td span {
+		font-size: 14px;
+		line-height: 1em;
+	}
+	#slide-1 table.squares tr:last-of-type td:nth-of-type(2) span {
+		margin-top: -20px;
+		margin-left: 15px;
+	}
+	
+	.square {
+		width: 100%;
+		height: 50%;
+	}
+	.square span {
+		font-size: 20px;
+	}
+	.kuchenne {
+		bottom: 20%;
+  		right: 64%;
+	}	
+	.meblowe {
+		bottom: 40%;
+	  	right: 39%;
+	}
+	.pokojowe {
+	  	bottom: 10%;
+	  	right: 24%;
+	}
+	.lazienkowe {
+		bottom: 25%;
+	  	right: 0%;
+	}
+	
+	#produkty {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#produkty .pictogram img {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	#produkty .pictogram h3 {
+		margin-bottom: 5px;
+	}
+	#produkty hr.red-line {
+	    width: 30%;
+	    margin-top: 60px;
+	}
+	
+	#slide-2 .pictogram {
+		padding: 0 40px;
+	}
+	#slide-2 .content {
+		padding: 0 10px;
+	}
+	#slide-2 .product-content h2 {
+		text-align: center;
+		padding-left: 0;
+		line-height: 50px;
+		
+	}
+	#slide-2 .product-content hr.red-line {
+		position: static;
+		margin: 60px auto;
+		width: 30%;
+	}
+	
+	#slide-3 .kadra-mobile-grid li {
+		display: none;
+	}
+	#slide-3 .kadra-mobile-grid img {
+		width: 100%;
+	}
+	
+	#slide-3 .kadra-nav {
+		position: absolute;
+		top: 42%;
+		display: block;
+		background: url('../img/arrow-right.png');
+		width: 64px;
+		height: 64px;
+		cursor: pointer;
+	}
+	#slide-3 .kadra-nav.nav-prev {
+		left: 10px;
+		-webkit-transform: rotate(180deg);
+	    -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	    -o-transform: rotate(180deg);
+	    transform: rotate(180deg);
+	}
+	#slide-3 .kadra-nav.nav-next {
+		right: 10px;
+	}
+	
+	#slide-3 .team-content hr.red-line {
+		margin: 50px auto 80px;
+	}
+	
+	#slide-3 .text {
+		padding: 50px 30px;
+	}
+	#slide-3 .text h1 {
+		padding-bottom: 20px;
+	}
+	
+	#slide-3 .white-bg {
+		padding: 50px 0;
+	}
+	
+	#slide-3 .pictogram {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
+	#slide-3 .close {
+		top: 30px;
+		right: 30px;
+	}
+	
+	#slide-3 .firma-content h2 {
+		padding-top: 30px;
+		font-size: 36px;
+	}
+	
+	#slide-3 .firma-content .txt {
+		padding: 60px 30px;
+		line-height: 1.4em;
+	}
+	
+	#slide-3 hr.red-line {
+		width: 30%;
+	}
+	
+	#slide-3 .firma-content .halfheight {
+		padding: 0 40px;
+	}
+	
+	#cooperation-wrapper {
+		width: auto;
+		margin-top: 60px;
+	}
+	#cooperation-wrapper h2,
+	#cooperation-wrapper span {
+		text-align: left;
+		float: left;
+	}
+	
+	.contact-info {
+		padding-right: inherit;
+	}
+	.contact-info hr {
+		width: 30%;
+		margin-bottom: 60px;
+	}
+	.contact-info h3 {
+		margin-bottom: 0;
+	}
+	.contact-info > * {
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	    text-align: center;
+	    font-size: 1.5em;
+	}
+	
+	
+	
+	.contact-form form {
+		padding: 0;
+	}
+	
+	.fb {
+		float: none;
+		margin: 20px auto;
+		display: block;
+	}
+	
+	footer {
+		padding: 50px 10px;
+	}
+	
+	footer nav.footer-menu {
+		float: none;
+		
+	}
+	footer nav.footer-menu ul {
+		float: none;
+		margin: 0 0 30px 0;
+	}
+	footer nav.footer-menu ul li {
+		display: block;
+		text-align: center;
+		padding: 0 0 30px 0;
+	}
+	
+	.footer-info span {
+		margin: 15px auto;
+		font-weight: bold;
+		display: block;
+		text-align: center;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 40.063em) {
+	
+	#slide-1 table.squares tr:last-of-type td:nth-of-type(2) span {
+		margin-top: -30px;
+		margin-left: 20px;
+	}
+	#slide-1 table.squares td span {
+		font-size: 14px;
+	}
+	#slide-1 .squares-wrapper {
+		bottom: -60px;
+	}
+	
+	.square {
+		width: 600px;
+		height: 300px;
+	}
+	.square span {
+		font-size: 20px;
+	}
+	.kuchenne {
+		bottom: 23%;
+  		right: 68%;
+	}	
+	.meblowe {
+		bottom: 50%;
+	  	right: 43%;
+	}
+	.pokojowe {
+	  	bottom: 10%;
+	  	right: 28%;
+	}
+	.lazienkowe {
+		bottom: 30%;
+	  	right: 3%;
+	}
+	#slide-2 hr.red-line {
+		margin-top: 50px;
+	}
+}
+@media only screen and (min-width: 64.063em) {
+	
+	#slide-1 table.squares tr:last-of-type td:nth-of-type(2) span {
+		margin-top: -40px;
+		margin-left: 25px;
+	} 
+	
+	.square {
+		width: 1000px;
+		height: 500px;
+	}
+	.square span {
+		font-size: 28px;
+	}
+	.kuchenne {
+		bottom: 25%;
+  		right: 73%;
+	}	
+	.meblowe {
+		bottom: 52%;
+	  	right: 48%;
+	}
+	.pokojowe {
+	  	bottom: 12%;
+	  	right: 33%;
+	}
+	.lazienkowe {
+		bottom: 32%;
+	  	right: 8%;
+	}
+	
+	#intro .nav-lang li {
+		font-size: 200%;
+	}
+	
+	#slide-2 hr.red-line {
+		margin-top: 150px;
+	}
+}
+
+@media only screen and (min-width: 90.063em) {
+	#slide-1 table.squares tr:last-of-type td:nth-of-type(2) span {
+		margin-top: -60px;
+		margin-left: 40px;
+	} 
+	#slide-1 table.squares td span {
+		font-size: 20px;
+	}
+	#slide-1 .squares-wrapper {
+		bottom: -120px;
+	}
+}
