@@ -13,7 +13,7 @@
         $info = $_POST['company']." ".$_POST['city'].", ".$_POST['street']."<br>";
         $person = $_POST['name']." tel. ".$_POST['phone']."<br><br>";
 
-        $to      = 'admin@example.com';
+        $to      = 'admin@examplemail.com';
         $subject = $_POST['subject'];
         $message = $info.$person.$_POST['message']."<br>___<br>".$accept;
         $headers = 'MIME-Version: 1.0' . "\r\n" .
